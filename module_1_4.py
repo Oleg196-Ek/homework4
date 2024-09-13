@@ -1,12 +1,8 @@
-# my_string = input("Text: ")
-# print(type("Text: "))
-# current_quantity = 7
-# how_much = int(input("сколько символов? "))
-# total = current_quantity - how_much
-# print(total)
-print('my_string'.upper())
-print('my_string'.lower())
-print('my _ string'.replace(' ', ''))
-txt = 'my_string'
-print(txt[0])
-print(txt[-1])
+my_string = input("Кем Вы работаете:? ")
+print(len(my_string))
+print(my_string.upper())
+print(my_string.lower())
+print(my_string.replace(' ', ''))
+print(my_string[0])
+print(my_string[-1])
+
